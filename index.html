@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>TEVI HP Bar</title>
+    </head>
+    <body class="main">
+        <center>
+            <div id='window'>
+                <canvas style="outline-style:solid;outline-width:1px" id="mainCanvas"></canvas>
+                <script src="game.js"></script>
+            </div>
+            <input id="hppercent" style="width:400px" type="range" value="0" min="0" max="100" oninput="update(this.value)"><br>
+            <output id="hpoutput"></output>
+        </center>
+    </body>
+</html>
